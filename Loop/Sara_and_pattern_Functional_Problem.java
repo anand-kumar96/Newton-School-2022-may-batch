@@ -1,5 +1,5 @@
-
 // mehod 01
+
 static void Pattern(int N){
   for(int i=0;i<N;i++){
   int Number=i*6;
