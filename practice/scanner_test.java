@@ -49,6 +49,7 @@ import java.util.Scanner;
 //    }
 //}
 // case 7-8 without creating new scanner --> pass Scanner in function with variable name and call function by variable
+// method 02 important
 public class scanner_test {
     public static void f(Scanner sc){
         String a=sc.nextLine();
