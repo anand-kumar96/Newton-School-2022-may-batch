@@ -17,3 +17,6 @@ public class prime_factorization {
         primeFactorization(n);
     }
 }
+
+
+//tc: n*logn
