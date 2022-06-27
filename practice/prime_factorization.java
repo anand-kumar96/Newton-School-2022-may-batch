@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class prime_factorization {
     public static void primeFactorization(int n) {
         for (int i = 2; i <= n; i++) {
-            while (n % i == 0) {
+            while (n % i == 0) {  // to reduce number 
                     System.out.println(i);
                 n = n / i;
             }
