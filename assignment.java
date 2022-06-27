@@ -3484,6 +3484,7 @@ Sample Input:
 2 9
 Sample Output:
 8
+387420489
 512
 Explanation:
 Test case 2: 387420489 is the value obtained when 9 is raised to the power of 9.
