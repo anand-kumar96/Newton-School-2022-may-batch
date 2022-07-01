@@ -1,0 +1,76 @@
+1) Which method returns the elements of Enum class?
+ a)getEnums()
+ b)getEnum()
+ c)getEnumConstants()
+ d)getEnumList()
+ e)None of these
+ 
+ Correct Option: C
+ getEnumConstants() returns the elements of this enum class or null if this Class object does not represent an enum type.
+ 
+2) Can we create instance of Enum outside of Enum itself?
+ a)False
+ b)1
+ c)True
+ d)0
+ e)None of these
+ 
+ Correct Option: A
+Enum does not have public constructor.
+
+3)Which access specifier is usually used for data members of a class?
+
+(a) Private
+(b) Default
+(c) Protected
+(d) Public
+ 
+Correct Option: a) private
+To explain: All the data members should be made private to ensure the highest security of data. 
+In special cases we can use public or protected access, but it is advised to keep the data members private always.
+ 
+ 
+ 04) What will be the return type of a method that not returns any value?
+ a)void
+ b) int
+ c) double
+ d) None of the above
+
+Answer: Option a)
+ Void does not return any value, where as data type like int , float , double, string returns a single value.
+ 
+ 05) What is the prototype of the default constructor?
+a) public Test(void)
+b) Test( )
+c) Test(void)
+d) public Test( )
+e) None of these
+
+Answer: Option d)
+Option A and B are wrong because they use the default access modifier and the access modifier
+for the class is public (remember, the default constructor has the same access modifier as the class).
+
+Option C is wrong. The void makes the compiler think that this is a method 
+specification - in fact if it were a method specification the compiler would spit it out.
+
+06) The main method should be static for the reason
+ a) It can be accessed easily by the class loader.
+ b) It can be accessed by every method or variable without any hindrance.
+ c) It can be executed without creating any instance of the class.
+ d) None of the above
+
+Answer: Option c)
+
+07) For the above class(MyClass) what is the correct way of declaring constructor?
+ a) MyClass(){}
+ b) MyClass(void) {}
+ c) public MyClass(){}
+ d) public MyClass(void){}
+ e) 1 and 3
+
+Answer: Option e)
+Choice A,C are the correct answers.
+The default access specifier for any constructor is same as the access
+specifier of class.so the options A and C are correct.
+
+
