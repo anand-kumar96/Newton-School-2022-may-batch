@@ -1,5 +1,52 @@
- a)
- b)
- c)
- d)
- e)
+1. What is known by the declaration ArrayList list = new ArrayList();? 
+a) list is an ArrayList object
+b) Elements of the list array are objects
+c) The type of information stored by list is unknown
+d) All of the above
+e) I don't know
+
+Correct Option:
+
+2. Which of the following statements describes dynamic resizing as it applies to the ArrayList class? 
+a) The size of a new ArrayList object must be specified at instantiation.
+b) The size of an ArrayList object can be restated throughout a program.
+c) The size of an ArrayList object is fixed at instantiation.
+
+Correct Option:
+
+3. "Assume the following declaration. ArrayList<String> list = new ArrayList<String>():
+Which of the following statements stores ""Newton"" in the list array:
+a) list.add("Newton");
+b) for (String item: list) item = "Newton;
+c)list[10]= "Newton";
+d) All of the above
+e) I don't know
+
+Correct Option:
+
+4. Which of these method can be used to increase the capacity of ArrayList object manually? 
+a) Capacity()
+b) increaseCapacity()
+c) increasecapacity()
+d) ensureCapacity()
+e) I don't know
+
+Correct Option:
+
+5. Which one of the following array elements represents a binary min heap? 
+a) 12 10 8 25 14 17
+b) 8 25 12 10 14 17
+c) 10 12 25 14 17
+d) 14 17 25 10 128
+e) I don't know
+
+Correct Option:
+
+6. What is the correct syntax to sort an ArrayList (Arr) in non-increasing order? (Single Choice) *
+a) Collections.sort(Arr, Collections.reverseOrder());
+b) Collections.sort(Arr, Collections.reverse());
+c) sort(Arr, Collections.reverseOrder());
+d) sort(Arr, Collections.reverse();
+e) I don't know
+
+Correct Option:
