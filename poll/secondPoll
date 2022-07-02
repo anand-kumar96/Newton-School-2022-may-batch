@@ -5,14 +5,16 @@ c) The type of information stored by list is unknown
 d) All of the above
 e) I don't know
 
-Correct Option:
+Correct Option:d)
 
 2. Which of the following statements describes dynamic resizing as it applies to the ArrayList class? 
 a) The size of a new ArrayList object must be specified at instantiation.
 b) The size of an ArrayList object can be restated throughout a program.
 c) The size of an ArrayList object is fixed at instantiation.
+d) The object changes size dynemically as new element are added.
+e) I don't know.
 
-Correct Option:
+Correct Option:d)
 
 3. "Assume the following declaration. ArrayList<String> list = new ArrayList<String>():
 Which of the following statements stores ""Newton"" in the list array:
@@ -22,7 +24,7 @@ c)list[10]= "Newton";
 d) All of the above
 e) I don't know
 
-Correct Option:
+Correct Option: a)
 
 4. Which of these method can be used to increase the capacity of ArrayList object manually? 
 a) Capacity()
@@ -31,7 +33,7 @@ c) increasecapacity()
 d) ensureCapacity()
 e) I don't know
 
-Correct Option:
+Correct Option: d)
 
 5. Which one of the following array elements represents a binary min heap? 
 a) 12 10 8 25 14 17
@@ -40,13 +42,13 @@ c) 10 12 25 14 17
 d) 14 17 25 10 128
 e) I don't know
 
-Correct Option:
+Correct Option:b)
 
-6. What is the correct syntax to sort an ArrayList (Arr) in non-increasing order? (Single Choice) *
+6. What is the correct syntax to sort an ArrayList (Arr) in non-increasing order?
 a) Collections.sort(Arr, Collections.reverseOrder());
 b) Collections.sort(Arr, Collections.reverse());
 c) sort(Arr, Collections.reverseOrder());
 d) sort(Arr, Collections.reverse();
 e) I don't know
 
-Correct Option:
+Correct Option: a)
