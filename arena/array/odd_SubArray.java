@@ -59,6 +59,8 @@ with the odd product increases by K*(K+1)/2. One way of counting continuous odd
 numbers is to calculate the difference between the indexes of every two consecutive
 even numbers and subtract it by 1. For the calculation, -1 and N are considered as indexes of even numbers. 
 Below is the implementation of the above approach:
+means if number is 4 3 8 then -1 denote 4 i.e. last even number  and n i.e  i  denotes 8 which is next even number
+and after count 8 become last i.e. -1.
 */
 
 class Main {
@@ -88,7 +90,7 @@ class Main {
        }
     }
     // N considered as index of
-    // even number
+    // even number so for last element
     K = (N - last - 1);
     count += (K * (K + 1) / 2);
     return count;
