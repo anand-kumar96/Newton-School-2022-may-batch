@@ -54,7 +54,7 @@ class Node {
         //find the middle
         // when only one ndoe is give
         if (head.next == null) {
-            head.val = -1;
+            head.val = -1; // head=new Node(-1);
             return head;
         }
 
