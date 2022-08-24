@@ -10,27 +10,26 @@ class Node {
 }
 */
  public static Node ReverseAlternateK(Node head,int k){
- Node current = head;
-        Node next = null, prev = null;
-        int count = 0;
-  
-        while (current != null && count < k) {
-            next = current.next;
-            current.next = prev;
-            prev = current;
-            current = next;
-            count++;
-        }
-        if (head != null) {
-            head.next = current;
-        }
-        count = 0;
-        while (count < k - 1 && current != null) {
-            current = current.next;
-            count++;
-        }
-        if (current != null) {
-            current.next = ReverseAlternateK(current.next, k);
-        }
-        return prev;
+ Node currNode=head;
+ Node prev=null;
+ int count=0;
+ while(currNode!=null && count<k){
+     Node temp=currNode.next;
+     currNode.next=prev;
+     prev=currNode;
+     currNode=temp;
+     count++;
+ }
+ if(head!=null){
+     head.next=currNode;
+ }
+    count=0;
+    while(currNode!=null && count<k-1){
+    currNode=currNode.next;
+    count++;
+    }
+    if(currNode!=null){
+    currNode.next=ReverseAlternateK(currNode.next,k);
+    }
+ return prev;  // think recusively to find prev pointer locattion via stack
 }
