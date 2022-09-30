@@ -50,8 +50,6 @@ class Main {
 
 /*
 
-
-
 Question 02:
 
 Ram Grades
@@ -88,7 +86,7 @@ Sample Output 2:
 
 --> code:
 
-
+*/
 import java.io.*; // for handling input/output
 import java.util.*; // contains Collections framework
 
@@ -107,9 +105,7 @@ class Main {
 	}
 }
 
-
-
-
+/*
 Question 03:
 
 RMS of an array
@@ -163,7 +159,7 @@ Taking square root of 109 gives 10.440307
 
 --> code:
 
-
+*/
 import java.io.*; // for handling input/output
 import java.util.*; // contains Collections framework
 
@@ -191,7 +187,7 @@ class Main {
 	}
 }
 
-
+/*
 ------------------------------------------------------------------
 Basics of Programming, Java Programming - [Syntax] - Post Class
 -------------------------------------------------------------------
@@ -233,14 +229,14 @@ Nice Job
 
 
  --> code:
-
+*/
 static String checkConevrtion(int a)
  {
 String s=Integer.toString(a);
 return s;
  }
 
-
+/*
 Question 02:
 
 Number dilemma
@@ -282,7 +278,7 @@ Nice Job
 --> code:
 
 
-
+*/
 
  static int StringToInt(String S){
 int a=Integer.parseInt(S);
@@ -295,7 +291,7 @@ return p;
 }
 
 
-
+/*
 -----------------------------------------------------------------------
 Input, Output, Variables & Operators, Datatypes & Variables - In Class
 -----------------------------------------------------------------------
@@ -336,7 +332,7 @@ Sample Output:-
 
 
 --> code:
-
+*/
 import java.io.*; // for handling input/output
 import java.util.*; // contains Collections framework
 
@@ -351,7 +347,7 @@ class Main {
 	}
 }
 
-
+/*
 Question 02:
 
 Operators
@@ -392,6 +388,7 @@ Sample Output:
 
 
 --> code:
+*/
 import java.io.*; // for handling input/output
 import java.util.*; // contains Collections framework
 
@@ -418,7 +415,7 @@ class Main {
 
 
 
-
+/*
 Question 02:
 
 Data types
@@ -462,7 +459,7 @@ c
 
 
 --> code:
-
+*/
 import java.io.*; // for handling input/output
 import java.util.*; // contains Collections framework
 
@@ -484,7 +481,7 @@ class Main {
 	}
 
 	}
-
+/*
 Question 04:
 
 Simple Sum
